@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 5;
+    padding: 5;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display:flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+.contact ul li {
+    display: inline-block;
+}
+
+main {
+
+}
+
+
+
+h1 + h2 + p {
+    display:inline;
+    font-weight: normal;
+}
